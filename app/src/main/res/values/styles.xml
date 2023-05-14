@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorOrange</item>
+        <item name="colorPrimaryDark">@color/colorOrange</item>
+        <item name="android:textColor">@color/colorOrange</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds" >true</item>
+    </style>
+
+
+
+
+    <style name="DefaultToolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:textColor">@color/colorOrange</item>
+        <item name="backgroundColor">@color/black</item>
+        <item name="navigationIcon">?attr/homeAsUpIndicator</item>
+    </style>
+
+    <style name="DefaultToolbar.CustomToolbar">
+        <item name="android:textColor">@color/colorOrange</item>
+        <item name="backgroundColor">@color/colorOrange</item>
+        <item name="navigationIcon">@drawable/back_icon</item>
+        <item name="titleTextAppearance">@style/CustomTitleToolbar</item>
+        <item name="centerTitle">true</item>
+
+    </style>
+
+    <style name="CustomTitleToolbar">
+        <item name="android:textColor">@color/colorOrange</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+
+
+
+
+    <style name="DefaultTabBarAppearance.CustomTabBar" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabIndicator">@drawable/selected_dot</item>
+        <item name="tabIndicatorGravity">bottom</item>
+        <item name="tabMode">scrollable</item>
+        <item name="tabInlineLabel">true</item>
+
+    </style>
+
+
+    <style name="DefaultTabBarAppearance" parent="Widget.AppCompat.ActionBar.TabBar">
+        <item name="tabIndicatorColor">@color/colorOrange</item>
+        <item name="tabGravity">center</item>
+    </style>
+
+
+
+    <style name="DefaultTextAppearance" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="DefaultTextAppearance.CustomText">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+
+</resources>
